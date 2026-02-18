@@ -1,62 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Autonomous Research Agent</title>
-<style>
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-        margin: 40px;
-        line-height: 1.6;
-        background-color: #f6f8fa;
-        color: #24292e;
-    }
-    .container {
-        background: white;
-        padding: 40px;
-        border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-        max-width: 900px;
-        margin: auto;
-    }
-    h1, h2, h3 {
-        border-bottom: 1px solid #eaecef;
-        padding-bottom: 8px;
-    }
-    .badges img {
-        margin: 5px 5px 5px 0;
-    }
-    code {
-        background: #f3f4f6;
-        padding: 4px 6px;
-        border-radius: 5px;
-        font-size: 14px;
-    }
-    pre {
-        background: #f3f4f6;
-        padding: 15px;
-        border-radius: 8px;
-        overflow-x: auto;
-    }
-    table {
-        border-collapse: collapse;
-        width: 100%;
-    }
-    table, th, td {
-        border: 1px solid #d0d7de;
-    }
-    th, td {
-        padding: 10px;
-        text-align: left;
-    }
-    .footer {
-        margin-top: 40px;
-        font-size: 14px;
-        color: #6a737d;
-    }
-</style>
-</head>
 <body>
 <div class="container">
 
@@ -77,7 +20,7 @@ An <strong>Autonomous Research Agent</strong> powered by a
 
 <ul>
     <li>⚡ <strong>Fast Router:</strong> Groq Llama 3.3</li>
-    <li>🧠 <strong>Final Synthesis:</strong> Google Gemini 2.0</li>
+    <li>🧠 <strong>Final Synthesis:</strong> Google Gemini 2.0 + Groq Llama 3.3</li>
     <li>🌐 <strong>Live Web Search:</strong> Tavily</li>
 </ul>
 
@@ -89,7 +32,7 @@ and high-quality answer synthesis inside a persistent interactive loop.
 <h2>🏗 Architecture Overview</h2>
 
 <pre>
-User → Groq Router → (Optional Tavily Search) → Gemini Synthesizer → Final Answer
+User → Groq Router → (Optional Tavily Search) → Gemini/Grok Synthesizer → Final Answer
 </pre>
 
 <h3>Stack Breakdown</h3>
