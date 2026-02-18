@@ -24,7 +24,7 @@ This agent allows you to ask questions, performs optional web searches, and synt
 ```bash
 git clone https://github.com/AshfaqDurjoy/Notorious-Triad.git
 cd Notorious-Triad
-
+```
 2. **API Setup
 
 The agent requires three API keys:
@@ -56,4 +56,4 @@ TAVILY_API_KEY=your_tavily_api_key_here
 
 4. run the project or 
 ```bash python agent.py
-
+```
